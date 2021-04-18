@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="navbar">
+        <a href="#chapter1">Chapter 1</a>
+        <a href="#chapter2">Chapter 2</a>
+        <a href="#chapter3">Chapter 3</a>
+        <a href="#chapter4">Chapter 4</a>
+        <a href="#chapter5">Chapter 5</a>
+        <a href="#chapter6">Chapter 6-9</a>
+        <a href="#chapter9">Chapter 9-11</a>
+        <a href="#chapter12">Chapter 12-13</a>
+    </div>
+
+
+    <div id="regForm" action="#" class="shadow rounded">
+        <h1>Assignment 8</h1>
+        <!-- One "tab" for each step in the form: -->
+        <div class="tab" id="chapter1">
+
+            <div class="group">
+                <h3>Chapter 1</h3>
+                <ol>
+                    <li>
+                        Write a script to greet your website visitor using JS alert box.<br>
+                        <div class="code-row">
+                            <textarea rows="2">alert('Welcome Visitor');
+                            </textarea><br>
+                            <button type="button" onclick="chapter1(1)" class="button1">Run</button>
+                        </div>
+
+                    </li>
+                    <li>
+                        Write a script to display following message on your web page:<br>
+                        <img src="Images/output/chapter1s2.PNG" alt="">
+                        <div class="code-row">
+                            <textarea rows="2">alert("Error! Please enter a valid password.");
+                            </textarea><br>
+                            <button type="button" onclick="chapter1(2)" class="button1">Run</button>
+                        </div>
+
+                    </li>
+                    <li> Write a script to display following message on your web page: (Hint : Use line break)<br>
+                        <img src="Images/output/chapter1s3.PNG" alt="">
+                        <div class="code-row">
+                            <textarea rows="2">alert("Welcome to JS Land... \nHappy Coding!");
+                            </textarea><br>
+                            <button type="button" onclick="chapter1(3)" class="button1">Run</button>
+                        </div>
+
+                    </li>
+                    <li>Write a script to display following messages in sequence:<br>
+                        <img src="Images/output/chapter1s4.PNG" alt="">
+                        <div class="code-row">
+                            <textarea rows="2">alert("Welcome to JS Land");
+alert("Happy Coding!");
+                        
+                            </textarea><br>
+                            <button type="button" onclick="chapter1(4)" class="button1">Run</button>
+                        </div>
+                    </li>
+
+                    <li>Generate the following message through browser’s developer console:
+                        <br>
+                        <img src="Images/output/chapter1s5.PNG" alt="">
+                        <div class="code-row">
+                            <textarea rows="2">console.log("Hello...I can run JS through my web browser's console");
+                            </textarea><br>
+                            <button type="button" onclick="chapter1(5)" class="button1">Run</button>
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+
+
+
+        </div>
+        <div class="tab" id="chapter2">
+            <div class="group">
+                <h3>Chapter 2</h3>
+                <ol>
+                    <li>
+                        Declare a variable called <b><i>username</i></b>.<br>
+                        <div class="code-row">
+                            <textarea rows="2">var username;
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>
+                        Declare a variable called <b><i>myName</i></b> & assign to it a string that represents your Full Name.<br>
+                        <div class="code-row">
+                            <textarea rows="2">var myName="Ganwa Khan";
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>
+                        Write script to
+                        <ol type="a">
+                            <li>Declare a JS variable, titled <b><i>message</i></b>. <br>
+                                <div class="code-row">
+                                    <textarea rows="2">var message;
+                                    </textarea><br>
+                                </div>
+
+                            </li>
+                            <li>Assign <i style="color: green;"><b>“Hello World”</b></i> to variable <b><i>message</i></b>
+                                <br>
+                                <div class="code-row">
+                                    <textarea rows="2">var message="Hello World";
+                                    </textarea><br>
+                                </div>
+
+                            </li>
+                            <li>Display the message in alert box
+
+                                <br>
+                                <div class="code-row">
+                                    <textarea rows="2"> alert(message);
+                                    </textarea><br>
+                                </div>
+
+
+                            </li>
+                        </ol>
+                        <button type="button" onclick="chapter2(3)" class="button1">Run</button>
+                    </li>
+                    <li>
+                        Write a script to save student’s bio data in JS variables and show the data in alert boxes.<br>
+                        <img src="Images/output/chapter2s4.PNG" alt="">
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="8">var name = "Jhone Doe";
+var age = 15;
+var course = "Certified Mobile Application Development";
+
+alert(name);
+alert(age);
+alert(course);                        
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter2(4)" class="button1">Run</button>
+
+                    </li>
+
+                    <li>
+                        Write a script to display the following alert using one JS variable:<br>
+                        <img src="Images/output/chapter2s5.PNG" alt="">
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="3">var pizza = "PIZZA\nPIZZ\nPIZ\nPI\nP";
+alert(pizza);
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter2(5)" class="button1">Run</button>
+
+                    </li>
+
+                    <li>
+                        Declare a variable called email and assign to it a string that represents your Email Address(e.g. example@example.com). Show the blow mentioned message in an alert box.(Hint: use string concatenation)
+                        <br>
+                        <img src="Images/output/chapter2s6.PNG" alt="">
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="3">var email = "example@example.com";
+alert("My email address is "+email);
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter2(6)" class="button1">Run</button>
+                    </li>
+                    <li>
+                        Declare a variable called book & give it the value “A smarter way to learn JavaScript”. Display the following message in an alert box:
+                        <br>
+                        <img src="images/output/chapter2s7.PNG" alt="">
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="3">var book = "A smarter way to learn JavaScript";
+alert("I am trying to learn from the Book "+book);
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter2(7)" class="button1">Run</button>
+                    </li>
+
+                </ol>
+            </div>
+        </div>
+
+        <div class="tab" id="chapter3">
+            <div class="group">
+                <h3>Chapter 3</h3>
+                <ol>
+                    <li>
+                        Declare a variable called <b>age</b> & assign to it your <b><i>age</i></b>. Show your age in an alert box.
+                        <br> <img src="Images/output/chapter3s1.PNG">
+                        <div class="code-row">
+                            <textarea rows="4">var age=19;
+alert("I am "+age+" year old");                                
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter3(1)" class="button1">Run</button>
+                    </li>
+                    <li>Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her number of visits on your web page. For example: “You have visited this site N times”.
+                        <br><img src="Images/output/chapter3s2.PNG">
+                        <div class="code-row">
+                            <textarea rows="4">var visits=0;
+visits++;
+alert("You have visited this site "+visits+" times");
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter3(2)" class="button1">Run</button>
+                    </li>
+
+                    <li>Declare a variable called <b>birthYear</b> & assign to it your birth year. Show the following message in your browser:
+                        <br><img src="Images/output/chapter3s3..PNG" alt="">
+                        <div class="code-row">
+                            <textarea rows="5">var birthYear = 1999;
+var browserMessage = "My birth year is " + birthYear + "<br> Data type of my declared variable is number";
+document.write(browserMessage);
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter3(3)" class="button1">Run</button>
+                        <div id="chapter3step3msg"></div>
+                        <br>
+                        <br>
+                    </li>
+
+                    <li>A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables the following information: a. Visitor’s name b. Product title c. Quantity i.e. how many products a visitor wants to order Show the
+                        following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store”. VARIABLE
+                        <br><img src="Images/output/chapter3s4..PNG">
+                        <div class="code-row">
+                            <textarea rows="7">var visitor_name="John Doe";
+var product_title="T-shirt(s)";
+var quantity="5";
+document.write("<b>" + visitor_name + "</b> ordered <b>" + quantity + " " + product_title + "</b> on XYZ Clothing store");                                
+                            </textarea><br>
+                        </div>
+                        <button type="button" onclick="chapter3(4)" class="button1">Run</button>
+                        <div id="chapter3step4msg"></div>
+                        <br>
+                        <br>
+                    </li>
+
+                </ol>
+            </div>
+        </div>
+        <div class="tab" id="chapter4">
+            <div class="group">
+                <h3>Chapter 4</h3>
+                <ol>
+                    <li>Declare 3 variables in one statement
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="2">var var1,var2,var3;
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>Declare 5 legal & 5 illegal variable names.
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="15">// 5 legal variable names
+var firstName;
+var sim1;
+var alert1;
+var var1;
+var Rose;
+
+
+// 5 illegal variable names
+var "name";
+var 5;
+var alert;
+var var;
+var first name;
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>Display this in your browser
+                        <ol type="a">
+                            <li>heading stating “Rules for naming JS variables”</li>
+                            <li>Variable names can only contain ______, ______, ______ and ______. For example <b>$my_1stVariable</b></li>
+                            <li>Variables must begin with a ______, ______ or _____. For example <b>$name, _name</b> or <b>name</b></li>
+                            <li>Variable names are case _________</li>
+                            <li>Variable names should not be JS _________</li>
+                        </ol>
+
+                        <br>
+
+                        <div class="code-row">
+                            <textarea rows="12">document.write("<h2>Rules for naming JS variables</h2><br><br>
+Variable names can only contain, numbers, $ and _. For example : $my_1stVariable
+Variable must begin with a letter, $ or _ . For example : $name, _name or name
+Variable name are case sensitive
+Variable names should not be JS keywords");
+                            </textarea><br>
+                            <b>output:</b><br>
+                            <h2>Rules for naming JS variables</h2><br><br> Variable names can only contain, numbers, $ and _. For example : $my_1st
+                            <br>Variable Variable must begin with a letter, $ or _ . For example : $name, _name or name
+                            <br>Variable name are case sensitive
+                            <br>Variable names should not be JS keywords
+                        </div>
+                    </li>
+
+
+
+                </ol>
+            </div>
+        </div>
+
+        <div class="tab" id="chapter5">
+            <div class="group">
+                <h3>Chapter 5</h3>
+                <ol>
+                    <li>Write a program that take two numbers & add them in a new variable. Show the result in your browser.
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="5">var number1=5;
+var number2=10;
+var sum=number1+number2;
+console.log(sum);
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>Repeat task1 for subtraction, multiplication, division & modulus.
+                        <br>
+                        <div class="code-row">
+                            <textarea rows="15">var number1=5;
+var number2=10;
+
+var sum=number1+number2;
+console.log(sum);
+
+var multiplication=number1*number2;
+console.log(multiplication);
+
+var division =number1/number2;
+console.log(division);
+
+var modulus =number1%number2;
+console.log(modulus);                                                            
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>Do the following using JS Mathematic Expressions</li>
+                    <ol type="a">
+                        <li>Declare a variable.</li>
+                        <li>Show the value of variable in your browser like “Value after variable declaration is: ??</li>
+                        <li>Initialize the variable with some number.</li>
+                        <li>Show the value of variable in your browser like “Initial value: 5”.</li>
+                        <li>Increment the variable.</li>
+                        <li> Show the value of variable in your browser like “Value after increment is: 6”.</li>
+                        <li>Add 7 to the variable.</li>
+                        <li> Show the value of variable in your browser like “Value</li>
+                    </ol><br>
+                    <li>after addition is: 13”.</li>
+                    <ol type="a">
+                        <li>Decrement the variable.</li>
+                        <li>. Show the value of variable in your browser like “Value after decrement is: 12”.</li>
+                        <li>Show the remainder after dividing the variable’s value by 3. </li>
+                        <li>Output : “The remainder is : 0”.</li>
+                    </ol><br>
+                    <li>. Cost of one movie ticket is 600 PKR. Write a script to store ticket price in a variable & calculate the cost of buying 5 tickets to a movie. Example output:</li><br>
+                    <li>Write a script to display multiplication table of any number in your browser. E.g</li>
+                    <li> <b>The Temperature Converter:</b>It’s hot out! Let’s make a converter based on the steps here.</li><br>
+                    <ol type="a">
+                        <li>Store a Celsius temperature into a variable.</li>
+                        <li> Convert it to Fahrenheit & output “NNoC is NNoF”.</li>
+                        <li> Now store a Fahrenheit temperature into a variabl</li>
+                        <li> Convert it to Celsius & output “NNoF is NNoC”.
+                        </li>
+                    </ol>
+                    <h6>Conversion Formulae:
+                    </h6>
+                    <li>Write a program to implement checkout process of a shopping cart system for an e-commerce website. Store the following in variables</li><br>
+                    <ol type="a">
+                        <li>Price of item 1</li>
+                        <li>Price of item 2</li>
+                        <li> Ordered quantity of item 1</li>
+                        <li> Ordered Quantity of item 2</li>
+                        <li> Shipping charges</li>
+                    </ol>
+                    <h5>Compute the total cost & show the receipt in your browser.</h5><br>
+                    <li>Store total marks & marks obtained by a student in 2 variables. Compute the percentage & show the result in your browser</li>
+                    <li>Assume we have 10 US dollars & 25 Saudi Riyals. Write a script to convert the total currency to Pakistani Rupees. Perform all calculations in a single expression. (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee and 1 Saudi Riyal
+                        = 28 Pakistani Rupee)</li><br>
+                    <li>. Write a program to initialize a variable with some number and do arithmetic in following sequence:</li>
+                    <ol type="a">
+                        <li>. Add 5</li>
+                        <li>Multiply by 10</li>
+                        <li> Divide the result by 2 Perform all calculations in a single expression</li>
+                    </ol>
+                    <li><b>The Age Calculator:</b> Forgot how old someone is? Calculate it!</li>
+                    <ol>
+                        <li> Store the current year in a variable.</li>
+                        <li>Store their birth year in a variable.</li>
+                        <li>. Calculate their 2 possible ages based on the stored values.
+                        </li>
+                        <h5>Output them to the screen like so: “They are either NN or NN years old”.</h5>
+                    </ol>
+                    <li><b>The Geometrizer:</b> Calculate properties of a circle</li>
+                    <ol type="a">
+                        <li> Store a radius into a variable.</li>
+                    </ol>
+                    <ol type="a">
+                        <li>Calculate the circumference based on the radius, and output “The circumference is NN”.</li>
+                    </ol>
+                    <h5><i>(Hint : Circumference of a circle = 2 π r , π = 3.142)</i> Calculate the area based on the radius, and output “The area is NN”<i> (Hint : Area of a circle = π r2, π = 3.142)</i></h5>
+                    <li><b>The Lifetime Supply Calculator:</b> Ever wonder how much a “lifetime supply” of your favorite snack is? Wonder no more.
+                    </li>
+                    <ol type="a">
+                        <li>Store your favorite snack into a variable</li>
+                        <li>Store your current age into a variable.</li>
+                        <li>Store a maximum age into a variable</li>
+                        <li>. Store an estimated amount per day (as a number).</li>
+                        <li>Calculate how many would you eat total for the rest of your life.</li>
+                    </ol>
+                    <h5>Output the result to the screen like so: “You will need NNNN to last you until the ripe old age of NN”.</h5>
+                </ol>
+            </div>
+        </div>
+        <div class="tab" id="chapter6">
+            <div class="group">
+                <h3>Chapter 6</h3>
+                <ol>
+                    <li>
+                        Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser: <img src="images/output/chapter6s1.PNG" alt="">
+                        <div class="code-row">
+                            <textarea rows="2">var username;
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>2. What will be the output in variables a, b & result after execution of the following script:
+                        <i> var a=2 , b=1 ; var result=- -a - --b + ++b + b--;</i> Explain the output at each stage:
+                        <i> --a; --a - --b; --a - --b + ++b; --a - --b + ++b + b--;</i>
+                        <li>Write a program that takes input a name from user & greet the user.</li>
+                        <li>. Write a program to take input a number from user & display it’s multiplication table on your browser. If user does not enter a new number, multiplication table of 5 should be displayed by default.</li>
+                        <li>Take</li>
+                    </li>
+                    <ol type="a">
+                        <li>Take three subjects name from user and store them in 3 different variables.</li>
+                        <li>Total marks for each subject is 100, store it in another variable.
+                        </li>
+                        <li>Take obtained marks for first subject from user and stored it in different variable.</li>
+                    </ol>
+                    <ol type="a">
+                        <li>Take obtained marks for remaining 2 subjects from user and store them in variables.</li>
+                        <li></li>
+                        Now calculate total marks and percentage and show the result in browser like this.(Hint: user table)</ol>
+                </ol>
+            </div>
+        </div>
+
+        <div class="tab" id="chapter9">
+            <div class="group">
+                <h3>Chapter 9</h3>
+                <ol>
+                    <li>
+                        1. Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like this: “Welcome to city of lights”<img src="images/output/chapter9s1.PNG" alt="">
+                        <div class="code-row">
+                            <textarea rows="2">var username;
+                            </textarea><br>
+                        </div>
+                    </li>
+                    <li>Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning Sir. If the user is female, give the message: Good Morning Ma’am</li>
+                    <li> Write a program to take input color of road traffic signal from the user & show the message according to this table:</li>
+                    <li> Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25litres, show the message “Please refill the fuel in your car”
+                    </li>
+                    <li>Run this script, & check whether alert message would be displayed or not. Record the outputs. a. var a = 4; if (++a === 5){ alert("given condition for variable a is true"); }
+                    </li>
+                    <p>b. var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); } c. var c = 12; if (c++ === 13){ alert("condition 1 is true"); } if (c === 13){ alert("condition 2 is true"); } if (++c
+                        < 14){ alert( "condition 3 is true"); } if(c===1 4){ alert( "condition 4 is true"); } d. var materialCost=2 0000; var laborCost=2 000; var totalCost=m aterialCost + laborCost; if (totalCost===l aborCost + materialCost){ alert( "The cost equals"); } e.
+                            if (true){ alert( "True"); } if (false){ alert( "False"); }</p>
+                            <p>f. if("car" "cat"){ alert( "car is smaller than cat"); }</p><br>
+                            <li> <b>Guess game:</b> Store a secret number (ranging from 1 to 10) in a variable. Prompt user to guess the secret number.</li>
+                            <ol type="a">
+                                <li>If user guesses the same number, show “Bingo! Correct answer”
+                                </li>
+                                <li>. If the guessed number +1 is the secret number, show “Close enough to the correct answer”.</li>
+                            </ol>
+                            <li>Write a program to check whether the given number is divisible by 3. Show the message to the user if the number is divisible by 3.</li>
+                            <li>Write a program that checks whether the given input is an even number or an odd number.</li>
+                            <li>Write a program that takes temperature as input and shows a message based on following criteria</li>
+                            <ol type="a">
+                                <li> T > 40 then “It is too hot outside.”</li>
+                                <li> T > 30 then “The Weather today is Normal.”</li>
+                                <li> T > 20 then “Today’s Weather is cool.”</li>
+                                <li> T > 10 then “OMG! Today’s weather is so Cool.”</li>
+                            </ol>
+                            <li>Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:</li>
+                            <ol type="a">
+                                <li> First number
+                                </li>
+                                <li>Second number </li>
+                                <li> Operation (+, -, *, /, %) Compute & show the calculated result to user.</li>
+                            </ol>
+
+                </ol>
+            </div>
+        </div>
+        <div class="tab" id="chapter12">
+            <div class="group">
+                <h3>Chapter 12</h3>
+                <ol>
+                    <li>
+                        Write a program that takes a character (number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).
+
+                        <div class="code-row">
+                            <textarea rows="2">var username;
+                            </textarea><br>
+                        </div>
+                        <li>Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.</li>
+                        <li>. Write a program that takes input a number from user & state whether the number is positive, negative or zero.</li>
+                        <li>Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise</li>
+                        <li>Write a program that</li>
+                        <ol type="a">
+                            <li> Store correct password in a JS variable.
+                            </li>
+                            <li> Asks user to enter his/her password </li>
+                            <li>Validate the two passwords: </li>
+                        </ol>
+                        <ol type="i">
+                            <li> Check if user has entered password. If not, then give message “ Please enter your password”
+
+                            </li>
+                            <li> Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password”. Show “Incorrect password” otherwise. </li>
+                        </ol>
+                        <li>This if/else statement does not work. Try to fix it: var greeting; var hour = 13; if (hour
+                            < 18) { greeting="Good day" ; else greeting="Good evening" ; } </li>
+                                <li>Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the following case using if, else & else if statements</li>
+
+                        </li>
+                </ol>
+            </div>
+        </div>
+
+        <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+</html>
+
+</html>
